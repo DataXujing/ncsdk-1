@@ -217,9 +217,6 @@ typedef unsigned long ULONG_PTR;
 
 #if !defined(NEED_FTIME)
 #include <time.h>
-#ifdef WIN32
-#define HAVE_STRUCT_TIMESPEC
-#endif
 #else /* NEED_FTIME */
 /* use native WIN32 time API */
 #endif /* NEED_FTIME */
