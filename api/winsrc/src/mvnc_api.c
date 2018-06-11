@@ -36,6 +36,7 @@
 #include "mvnc.h"
 #include "usb_link.h"
 #include "usb_boot.h"
+#include "libusb.h"
 #include "common.h"
 
 // Graph file structure
